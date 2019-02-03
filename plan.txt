@@ -1,0 +1,22 @@
+нейронная сеть - это математческая функция
+frameworks, how they work
+derivative, partial derivative
+gradient descent
+
+
+
+how on the earth it can learn anything? - the simple math under the hood of machine learning
+
+one of the problems - classification - show examples
+example - photos - cats so the classifier is a function which takes x (1024x768*3) and gives y - 0 or 1
+how to write this function - the logic seems to be unintuitive. Method - take examples - give the function. those methods called machine learning
+in order to get how it works - here is a simple example - classification of flowers
+do it manually - show on 2d, it is a line, higher is a one, lower is another
+let's write a line function y=kx+b ; distance=y(w)-h ; difference?0; k and b? - graphical - here is the classifier
+how make the machine do it - loss function - show it -sum(distance[i]*c[i]) should be low - graphical
+so finding the such k and b where the loss function is minimum - optimization problem
+what algorithm could do this? A simple loop - not a best solution. 
+Gradient descent, calculating derivative numerically, moving
+derivative - analytically, rules
+
+
