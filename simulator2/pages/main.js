@@ -1,7 +1,8 @@
 import React from 'react';
-import Plot from 'react-plotly.js';
 import { irisSetosa, irisVirginica } from '../source/plot-data';
 import basicPerceptronModel from '../source/basic-perceptron-model';
+import createPlotlyComponent from 'react-plotly.js/factory'
+const Plot = createPlotlyComponent(Plotly);
 
 export default class extends React.Component {
 
